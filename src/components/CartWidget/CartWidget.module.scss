@@ -1,0 +1,24 @@
+@import '../../assets/scss/colors';
+
+.cartWidgetContainer {
+  color: $color1;
+  position: relative;
+
+  &:hover {
+    color: $color2;
+  }
+}
+
+.cartWidgetAmount {
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+  align-content: center;
+  top: -5px;
+  left: 26px;
+  height: 23px;
+  width: 23px;
+  border-radius: 50%;
+  color: $color1;
+  background-color: $color3;
+}

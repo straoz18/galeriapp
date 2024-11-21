@@ -1,0 +1,41 @@
+@import '../../assets/scss/colors';
+
+.cartItem {
+  display: flex;
+  margin: 20px;
+  padding: 0 10px;
+  align-items: center;
+  border: 2px solid $color2;
+  border-radius: 20px;
+  justify-content: space-between;
+  height: 210px;
+}
+
+.cartItem * {
+  padding: 0 5px;
+}
+
+.cartItemImage {
+  padding: 0;
+  text-align: center;
+  width: 100px;
+
+  @media (min-width: 576px) {
+    & {
+      width: 200px;
+    }
+  }
+}
+
+.img {
+  padding: 0;
+  max-height: 100px;
+  max-width: 100px;
+
+  @media (min-width: 576px) {
+    & {
+      max-height: 200px;
+      max-width: 200px;
+    }
+  }
+}

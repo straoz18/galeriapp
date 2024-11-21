@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'Silkscreen';
+  src: url('../../assets/fonts/Silkscreen.woff2') format('woff2');
+}
+
+@import '../../assets/scss/colors';
+
+.navbar {
+  background-color: $color5;
+}
+
+.navbarBrand {
+  font-family: 'Silkscreen', sans-serif;
+  color: $color1 !important;
+  text-shadow:
+    0 0 1px #fff,
+    0 0 10px $color3,
+    0 0 20px $color3,
+    0 0 22px $color3,
+    0 0 25px $color3,
+    0 0 35px $color3;
+}
+
+.navLink {
+  color: $color1;
+
+  &:hover {
+    color: $color3;
+  }
+
+  &:focus {
+    color: $color2;
+  }
+}
+
+.navbarTogglerIcon {
+  color: $color1;
+}
+
+.dropdownCustom:focus {
+  color: $color2;
+}

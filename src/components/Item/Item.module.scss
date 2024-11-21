@@ -1,0 +1,24 @@
+@import '../../assets/scss/colors';
+
+.card {
+  width: 18rem;
+  text-align: center;
+  text-wrap: balance;
+}
+
+.imageContainer {
+  display: flex;
+  flex-wrap: wrap;
+  height: 250px;
+  align-content: center;
+  justify-content: center;
+}
+
+.cardImgTop {
+  max-height: 250px;
+  max-width: 250px;
+}
+
+.itemPrice {
+  color: $color4;
+}

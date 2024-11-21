@@ -1,0 +1,49 @@
+@import './assets/scss/colors';
+
+// General properties
+
+html,
+body,
+#root,
+.App {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: $color1;
+}
+
+.App {
+  display: flex;
+  flex-flow: column;
+}
+
+a {
+  text-decoration: none;
+}
+
+.balance {
+  text-wrap: balance;
+}
+
+.btn-primary {
+  background-color: $color3;
+  border-color: $color3;
+
+  &:hover {
+    background-color: $color2;
+  }
+}
+
+.minusDisplayPlus {
+  & .btn-primary {
+    width: 36px;
+    height: 40px;
+  }
+
+  & span {
+    display: inline-block;
+    text-align: center;
+    width: 35px;
+  }
+}
